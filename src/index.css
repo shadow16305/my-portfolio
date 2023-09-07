@@ -1,0 +1,149 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Philosopher:wght@400;700&display=swap");
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #2c2253;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+h1 {
+  color: #fff;
+  font-family: "Philosopher", sans-serif;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 75px; /* 117.188% */
+  letter-spacing: 1.28px;
+}
+
+h2 {
+  color: #d79fd6;
+  font-family: "Philosopher", sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 75px; /* 208.333% */
+  letter-spacing: 0.72px;
+}
+
+h3 {
+  color: #fff;
+  font-family: "Philosopher", sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+h4 {
+  color: #31f3ff;
+  font-family: "Philosopher", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 75px; /* 312.5% */
+  letter-spacing: 0.48px;
+}
+
+a {
+  color: #fff;
+  font-family: "Philosopher", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+p {
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 187.5% */
+  letter-spacing: 0.16px;
+}
+
+input {
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.7px;
+  text-transform: capitalize;
+}
+
+input::placeholder {
+  color: white;
+}
+
+textarea::placeholder {
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    color: #fff;
+    text-align: center;
+    font-family: "Philosopher", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: 0.72px;
+  }
+
+  h2 {
+    color: #d79fd6;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 75px; /* 312.5% */
+    letter-spacing: 0.48px;
+  }
+
+  h3 {
+    color: #fff;
+    font-family: "Philosopher", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  h4 {
+    color: #31f3ff;
+    font-family: Philosopher;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 75px; /* 535.714% */
+    letter-spacing: 0.28px;
+  }
+
+  p {
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 166.667% */
+    letter-spacing: 0.24px;
+  }
+}
