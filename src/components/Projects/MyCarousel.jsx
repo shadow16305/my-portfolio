@@ -67,7 +67,7 @@ const MyCarousel = ({ projects_items }) => {
 
   return (
     <div className="container mx-auto">
-      <div className="relative overflow-hidden w-[300px] lg:w-[1200px] mx-auto">
+      <div className="relative overflow-hidden lg:w-[1200px]">
         {carouselFragment}
       </div>
       <div className="lg:justify-center gap-12 mt-8 hidden lg:flex">

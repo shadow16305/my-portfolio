@@ -79,7 +79,7 @@ const Form = () => {
             name="name"
             value={formData.name}
             onChange={handleInputChange}
-            className="backdrop-filter backdrop-blur-sm bg-opacity-30 rounded-xl bg-white text-white w-[225pxpx] lg:w-[340px] py-3 px-5 focus:outline-none"
+            className="backdrop-filter backdrop-blur-sm bg-opacity-30 rounded-xl bg-white text-white w-[225px] lg:w-[340px] py-3 px-5 focus:outline-none"
             placeholder="Name"
           />
           <div className="text-red-500">{errors.name}</div>
@@ -92,7 +92,7 @@ const Form = () => {
             name="email"
             value={formData.email}
             onChange={handleInputChange}
-            className="backdrop-filter backdrop-blur-sm bg-opacity-30 rounded-xl bg-white text-white w-[225pxpx] lg:w-[340px] py-3 px-5 focus:outline-none"
+            className="backdrop-filter backdrop-blur-sm bg-opacity-30 rounded-xl bg-white text-white w-[225px] lg:w-[340px] py-3 px-5 focus:outline-none"
             placeholder="Email Address"
           />
           <div className="text-red-500">{errors.email}</div>
@@ -104,7 +104,7 @@ const Form = () => {
             name="title"
             value={formData.title}
             onChange={handleInputChange}
-            className="backdrop-filter backdrop-blur-sm bg-opacity-30 rounded-xl bg-white text-white w-[225pxpx] lg:w-[340px] py-3 px-5 focus:outline-none"
+            className="backdrop-filter backdrop-blur-sm bg-opacity-30 rounded-xl bg-white text-white w-[225px] lg:w-[340px] py-3 px-5 focus:outline-none"
             placeholder="Subject"
           />
           <div className="text-red-500">{errors.title}</div>
@@ -115,7 +115,7 @@ const Form = () => {
             name="message"
             value={formData.message}
             onChange={handleInputChange}
-            className="backdrop-filter backdrop-blur-sm bg-opacity-30 rounded-xl bg-white text-white w-[225pxpx] lg:w-[340px] py-3 px-5 focus:outline-none"
+            className="backdrop-filter backdrop-blur-sm bg-opacity-30 rounded-xl bg-white text-white w-[225px] lg:w-[340px] py-3 px-5 focus:outline-none"
             placeholder="Your Message"
           />
           <div className="text-red-500">{errors.message}</div>

@@ -1,6 +1,7 @@
 import React from "react";
 
 import MyCarousel from "./MyCarousel";
+import MyCarousel_Mobile from "./MyCarousel_Mobile";
 
 import { projects_items } from "../Tools/projects_items";
 
@@ -16,7 +17,12 @@ const Projects = () => {
       >
         <div className="relative z-10 flex flex-col items-center gap-[74px]">
           <h1>My Projects</h1>
-          <MyCarousel projects_items={projects_items} />
+          <div className="hidden lg:block">
+            <MyCarousel projects_items={projects_items} />
+          </div>
+          <div className="lg:hidden">
+            <MyCarousel_Mobile projects_items={projects_items} />
+          </div>
         </div>
         <img
           src={bg_desktop}
