@@ -29,7 +29,7 @@ const MyCarousel_Mobile = ({ projects_items }) => {
                     View Site
                   </a>
                   <a
-                    href={item.siteHref}
+                    href={item.codeHref}
                     target="_blank"
                     className="text-[14px] py-1 px-4 uppercase text-white border-2 border-x-0 border-t-0 border-b-[#4BBAC4] transition-[0.25s]"
                   >
